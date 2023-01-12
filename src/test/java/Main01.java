@@ -5,10 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-import java.time.Duration;
-import java.util.concurrent.TimeUnit;
-
-public class Main {                       //12. Ders
+public class Main01 {                       //12. Ders
     public static void main(String[] args) {
 
         WebDriverManager.chromedriver().setup();

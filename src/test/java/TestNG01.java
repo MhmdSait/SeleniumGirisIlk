@@ -4,7 +4,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
 
-public class TestNG {
+public class TestNG01 {
 
     @Test
     public void basariliMailTesti(){

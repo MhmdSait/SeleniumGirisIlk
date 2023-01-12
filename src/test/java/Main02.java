@@ -8,12 +8,13 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import java.util.concurrent.TimeUnit;
 
 
-public class Main2 { // 16.Ders Proje-1
+public class Main02 { // 16.Ders Proje-1
     public static void main(String[] args) {
 
         WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
+
         driver.get("https://demoqa.com/");
         driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
 
